@@ -90,18 +90,6 @@ The extension supports word lists in the following languages:
 2. Reload the extension in `chrome://extensions/`
 3. Test on [skribbl.io](https://skribbl.io)
 
-### File Structure
-```
-skribbl-guesseer/
-├── manifest.json      # Extension configuration
-├── content.js         # Main content script
-├── settings.html      # Settings popup UI
-├── settings.js        # Settings functionality  
-├── style.css          # Styling (currently minimal)
-├── icon.png          # Extension icon
-└── README.md         # This file
-```
-
 ## 📝 License
 
 This project is open source. Please respect the terms of use of skribbl.io when using this extension.
