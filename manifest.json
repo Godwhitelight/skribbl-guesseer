@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Skribbl.io Word Helper",
+    "version": "1.0",
+    "description": "Suggests words on skribbl.io based on hints and selected language.",
+    "icons": {
+      "128": "icon.png"
+    },
+    "permissions": ["storage", "scripting", "activeTab"],
+    "host_permissions": ["https://skribbl.io/*"],
+    "action": {
+      "default_popup": "settings.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://skribbl.io/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
